@@ -1,0 +1,36 @@
+{
+  "suggest.noselect": false,
+  "suggest.autoTrigger": "none",
+  "coc.preferences.formatOnSaveFiletypes": [],
+  "eslint.filetypes": ["javascript", "javascriptreact"],
+  "languageserver": {
+    "terraform": {
+      "command": "terraform-ls",
+      "args": ["serve"],
+      "filetypes": ["terraform", "tf"],
+      "initializationOptions": {},
+      "settings": {}
+    },
+    "haskell": {
+      "command": "hie-wrapper",
+      "args": ["--lsp"],
+      "rootPatterns": [
+        "stack.yaml",
+        "cabal.config",
+        "package.yaml",
+        "servant-api.cabal",
+        "app.cabal"
+      ],
+      "filetypes": ["hs", "lhs", "haskell"],
+      "initializationOptions": {
+        "languageServerHaskell": {
+          "hlintOn": true
+        }
+      }
+    },
+    "reason": {
+      "command": "reason-language-server",
+      "filetypes": ["reason", "ocaml"]
+    }
+  }
+}

@@ -1,0 +1,2 @@
+nnoremap Z ^
+nnoremap X $

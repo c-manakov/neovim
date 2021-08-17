@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/constantinem/Projects/vortic-api'
+let g:netrw_dirhist_5='/home/constantinem/Projects/liveswitch-recorder'
+let g:netrw_dirhist_4='/home/constantinem/Projects/uvislandsphx'
+let g:netrw_dirhist_3='/run/media/constantinem/Transcend/$RECYCLE.BIN'
+let g:netrw_dirhist_2='/run/media/constantinem/Transcend'
+let g:netrw_dirhist_1='/run/media/constantinem/Transcend/$RECYCLE.BIN'
+let g:netrw_dirhist_0='/run/media/constantinem/Transcend'
+let g:netrw_dirhist_9='/run/media/constantinem/Transcend/$RECYCLE.BIN'
+let g:netrw_dirhist_8='/run/media/constantinem/Transcend'
+let g:netrw_dirhist_7='/run/media/constantinem/Transcend/$RECYCLE.BIN'
